@@ -3,6 +3,7 @@
 A Federated Learning-based project that trains and evaluates **speech-to-text models** across decentralized clients. It computes **Loss**, **WER (Word Error Rate)**, and **BLEU score** per client and visualizes performance over multiple training rounds.
 
 ---
+![WhatsApp Image 2025-04-15 at 14 54 43_721dfa5a](https://github.com/user-attachments/assets/e5643425-a062-46d9-bc7d-382ea7c17628)
 
 ## 🚀 Features
 
@@ -16,6 +17,7 @@ A Federated Learning-based project that trains and evaluates **speech-to-text mo
 - ⚡ Optimized for GPU acceleration
 
 ---
+![WhatsApp Image 2025-04-15 at 14 56 13_3696559d](https://github.com/user-attachments/assets/8e77bc4b-7d3a-44ea-9793-52ab1261e2ee)
 
 ## 📁 Project Structure
 
