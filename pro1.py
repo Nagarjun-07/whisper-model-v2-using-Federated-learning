@@ -9,7 +9,6 @@ Original file is located at
 
 !pip install flower torch torchaudio pandas librosa soundfile transformers evaluate flwr ray[default] jiwer sacrebleu
 !pip install -U "flwr[simulation]"
-
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -35,7 +34,7 @@ warnings.filterwarnings("ignore", message=".*path is deprecated.*")
 
 Scalar = Union[bool, bytes, float, int, str]
 
-# Define paths using Drive mount
+# Define paths using Drive mounts
 DRIVE_PATH = "/content/drive/MyDrive/Federated Testing ML"
 TRAIN_PATH = Path(os.path.join(DRIVE_PATH, "train_subset/train_subset.tsv"))
 TEST_PATH  = Path(os.path.join(DRIVE_PATH, "test_subset/test_subset.tsv"))
